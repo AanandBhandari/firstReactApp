@@ -1,0 +1,34 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @babel/preset-env
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Aanand\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\Users\Aanand\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Heroku\bin;C:\Users\Aanand\AppData\Roaming\npm;C:\Users\Aanand\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\3.6\bin;D:\nodeprojects\mongodb
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at _errnoException (util.js:1022:11)
+      at TLSWrap.onread (net.js:610:25)
+
+npm manifest: 
+  {
+    "name": "indecision",
+    "version": "1.0.0",
+    "main": "app.js",
+    "author": "Aanand",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
