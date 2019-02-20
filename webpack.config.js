@@ -5,5 +5,12 @@ module.exports = {
         path:path.join(__dirname,'public'),
         filename : 'bundle.js'
     },
-    "mode" : "none"
+    "mode" : "none",
+    module : {
+        rules : [{
+            loader:'bael-loader',
+            test : /\.js$/,
+            exclude :/node_modules/
+        }]
+    }
 }
